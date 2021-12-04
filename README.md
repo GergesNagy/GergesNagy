@@ -1,16 +1,32 @@
-### Hi there 👋
+# Foobar
 
-<!--
-**GergesNagy/GergesNagy** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Foobar is a python library for dealing with word pluralization
 
-Here are some ideas to get you started:
+# installation
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Use the package manager [pip](https://pip.pypa.io/en/stable/installation/) to install foobar
+
+pip install foobar
+
+# usage
+
+import foobar
+
+foobar.pluralize('word') #returns 'words'
+
+foobar.pluralize('goose') #returns 'geese'
+
+foobar.pluralize('phenomena') #returns 'phenomenon'
+
+# contributing
+
+pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+**P**lease make sure to update tests as appropriate.
+
+# License
+
+[MIT](https://www.mit.edu/)
+
+# img
+![image](https://github.com/GergesNagy/GergesNagy/blob/main/DevOps.png)
