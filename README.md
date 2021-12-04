@@ -10,13 +10,15 @@ pip install foobar
 
 # usage
 
+````
 import foobar
 
-foobar.pluralize('word') #returns 'words'
+foobar.pluralize ('word') # returns 'words'
 
-foobar.pluralize('goose') #returns 'geese'
+foobar.pluralize ('goose') # returns 'geese'
 
-foobar.pluralize('phenomena') #returns 'phenomenon'
+foobar.pluralize ('phenomena') # returns 'phenomenon'
+````
 
 # contributing
 
